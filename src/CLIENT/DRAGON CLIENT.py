@@ -20,7 +20,7 @@ def main():
     #create a list of threads
     threads=[]
     #specific the HOST where the client needs to connect
-    HOST="192.168.5.14"
+    HOST="IP"
     #specific the PORT where the client can liste
     PORT=5555
     
