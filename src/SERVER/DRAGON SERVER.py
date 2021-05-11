@@ -23,7 +23,7 @@ def main():
     global FLAG
     
     #specific the HOST where the server is running
-    HOST="192.168.5.14"
+    HOST="IP"
     
     #specific the PORT where the server is listening
     serverPort=5555
