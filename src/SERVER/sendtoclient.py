@@ -15,7 +15,7 @@ def send_to_client(conn,addr,FLAG):
         while True:
             if FLAG==True:
                 break
-            send_msg=input("")
+            send_msg=console.input(f"[bold gray]SERVER: [/bold gray]")
             #send to client to close the connection 
             if send_msg=="q":
                 conn.send("q".encode())
