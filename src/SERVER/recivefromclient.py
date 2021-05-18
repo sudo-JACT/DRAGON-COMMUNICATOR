@@ -24,15 +24,14 @@ def recv_from_client(conn,addr,FLAG):
             #if we recive a message to close the connection we send to client to close the connection
             if message=="q":
                 conn.send("q".encode())
-                console.print(f"[bold red][WARNING!] CLOSING CONNECTION[/bold red]")
+                console.print(f"\n[bold red][WARNING!] CLOSING CONNECTION[/bold red]")
                 console.print(f"[bold red][WARNING!] CONNECTION CLOSED[/bold red]")
                 console.print(f"[bold red][WARNING!] QUITTED[/bold red]")
                 conn.close()
                 FLAG=True
                 break
         
-            console.print(f"[bold blue][CLIENT] [/bold blue]{message}")   #-->print the message we have recived from client
+            console.print(f"\n[bold blue][CLIENT] [/bold blue]{message}")   #-->print the message we have recived from client
             #playsound("5678.wav")--> if you want to play sound when the message is recived
     except:
         conn.close()  #-->clos connection
-        
