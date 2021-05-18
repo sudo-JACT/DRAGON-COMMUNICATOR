@@ -1,6 +1,6 @@
 # DRAGON-COMMUNICATOR
 
-Current Version 1.7.1
+**Current Version 1.7.2**
 <p>Libraries you need:</p>
 <ul>
   <li>sys</li>
@@ -12,14 +12,12 @@ Current Version 1.7.1
 
 **<p>SERVER SIDE</p>**
 
-![IM](https://user-images.githubusercontent.com/67701333/118158712-7336fe80-b41c-11eb-9589-a6944cd78f17.png)
+![IM](https://user-images.githubusercontent.com/67701333/118681509-ee732880-b7ff-11eb-8432-76dc9f20cabe.png)
 
 
 **<p>CLIENT SIDE</p>**
 
-![IM2](https://user-images.githubusercontent.com/67701333/118158737-79c57600-b41c-11eb-90f1-367f22ee9f90.png)
+![IM2](https://user-images.githubusercontent.com/67701333/118681549-f59a3680-b7ff-11eb-9366-07e42f0d53b6.png)
 
-
-**I'm sorry for these little graphics bugs**
 
 With DRAGON-COMMUNICATOR you can send message in a LAN network
