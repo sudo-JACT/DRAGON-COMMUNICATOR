@@ -20,7 +20,7 @@ def send_to_client(conn,addr,FLAG):
             if send_msg=="q":
                 conn.send("q".encode())
                 
-                console.print(f"[bold red][WARNING!] CLOSING CONNECTION[/bold red]")
+                console.print(f"\n[bold red][WARNING!] CLOSING CONNECTION[/bold red]")
                 console.print(f"[bold red][WARNING!] CONNECTION CLOSED[/bold red]")
                 console.print(f"[bold red][WARNING!] QUITTED[/bold red]")
                 conn.close()
